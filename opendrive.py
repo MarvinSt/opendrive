@@ -1,12 +1,11 @@
 import os
 import json
-from typing import Optional
+import numpy as np
 import xml.etree.ElementTree as ET
 
-import numpy as np
-
-from geometry import Geometry, Poly3, RotateX, RotateY, RotateZ, get_normal
+from typing import Optional
 from dataclasses import dataclass
+from geometry import Geometry, Poly3, RotateX, RotateY, RotateZ, get_normal
 
 
 @dataclass
